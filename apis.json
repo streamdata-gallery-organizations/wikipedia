@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Wikipedia",
+	"description": "This is a repository of wikipedia APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/wikipedia.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://wikipedia.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Wikipedia",
+			"x-api-slug": "wikipedia",
+			"description": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/144-wikipedia.jpg",
+			"humanURL": "https://www.wikipedia.org/",
+			"baseURL": "https://wikimedia.org//api/rest_v1",
+			"tags": "Wikipedia",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/wikipedia/master/_listings/wikipedia/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Wikipedia",
+	"include": [
+		{
+			"name": "Wikipedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/wikipedia/master/_listings/wikipedia/apis.yaml"
+		}
+	]
+}
